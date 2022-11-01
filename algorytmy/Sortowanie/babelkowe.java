@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Random;
-
+import java.util.concurrent.TimeUnit;
 public class babelkowe{
 
   static int[] show_table (int i ){
@@ -12,7 +12,7 @@ public class babelkowe{
      }
      return tablica;
  }
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException{
         //  System.out.print(Arrays.toString(show_table(12)));
         int l = 10;
         int[] tablica = new  int[l];
@@ -54,7 +54,11 @@ public class babelkowe{
         }
         for (int z = 0;z<tablica.length;z++){
             System.out.print(tablica[z]+" | ");
+
         }
+        Thread.sleep(1000);
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
 
     }
 }
