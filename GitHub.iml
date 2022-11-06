@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/algorytmy/Sortowanie" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/programy/wczytywanie" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/programy/StringBuffer_and_StringBuilder" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
